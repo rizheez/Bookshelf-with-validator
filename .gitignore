@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 node_modules
 .env
 .prod.env
+=======
+node_modules
+>>>>>>> e9986cf1d65fa07c4492099a90202e7ee29daf18

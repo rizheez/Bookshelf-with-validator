@@ -6,8 +6,12 @@
   "scripts": {
     "start-prod": "NODE_ENV=production node ./src/server.js",
     "start-dev": "nodemon ./src/server.js",
+<<<<<<< HEAD
     "lint": "eslint ./src",
     "migrate": "node-pg-migrate"
+=======
+    "lint": "eslint ./src"
+>>>>>>> e9986cf1d65fa07c4492099a90202e7ee29daf18
   },
   "keywords": [],
   "author": "",
@@ -20,10 +24,15 @@
   },
   "dependencies": {
     "@hapi/hapi": "^20.1.0",
+<<<<<<< HEAD
     "dotenv": "^16.0.2",
     "joi": "^17.6.0",
     "nanoid": "^3.1.20",
     "node-pg-migrate": "^6.2.2",
     "pg": "^8.8.0"
+=======
+    "joi": "^17.6.0",
+    "nanoid": "^3.1.20"
+>>>>>>> e9986cf1d65fa07c4492099a90202e7ee29daf18
   }
 }
